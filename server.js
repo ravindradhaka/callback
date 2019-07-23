@@ -14,9 +14,6 @@ app.get('/', (req, res) => {
 app.get('/MarcoPolo', routes.marcopolo);
 app.get('/TopSecret', routes.topsecret);
 app.get('/parseInvoiceNumbers', routes.parseinvoicenumbers);
-app.get('/MarcoPolo', routes.marcopolo);
-app.get('/TopSecret', routes.topsecret);
-app.get('/parseInvoiceNumbers', routes.parseinvoicenumbers);
 
 app.listen(3000, () => {
     console.log("Server is dsdlistening on port 3000");
